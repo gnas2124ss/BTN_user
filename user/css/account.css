@@ -1,0 +1,160 @@
+body {
+    overflow: hidden;
+    background: #F5F5F5;
+    overflow-y: auto;
+    font-family: var(--font-base);
+    font-size: 14px;
+}
+.page-content-account {
+    margin-top: 30px;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 7.5px;
+    max-width: 1190px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -7.5px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;}
+.col-xl-8 {
+     -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.offset-xl-2 {
+        margin-left: 16.666667%;
+    }
+[class*='col-'] {
+        padding: 0 7.5px;
+    }
+.page-content-account .d-group {
+        display: flex;
+        margin-bottom: 40px;
+        border: solid 1px var(--main-color);
+        min-height: 460px;
+    }
+.page-content-account .left-col {
+        background: #fff;
+        width: calc(100% - 290px);
+        padding: 30px;
+    }
+    .form-group {
+        border: 0;
+    }
+ .page-content-account .left-col form {
+        margin: 0;
+        padding: 0;
+    }
+button, input, optgroup, select, textarea {
+        margin: 0;
+        font-family: inherit; }
+input {
+            height: 40px;
+            border-radius: 4px;
+            line-height: 40px;
+            margin-bottom: 10px;
+            float: left;
+            width: 100%;
+            padding: 0 20px 0 20px;
+            background: #fff;
+            border-color: #ebebeb;
+            font-size: 14px;
+            color: #9e9e9e;
+            box-shadow: none;
+        }
+.page-content-account .left-col p {
+display: block;}
+.page-content-account .left-col .error {
+    color: red;
+    text-align: left;
+    margin: 15px 0 10px 0;
+}
+fieldset, input, select, textarea {
+    border-radius: 0;
+    max-width: 100%;
+}
+.page-content-account .left-col fieldset {
+    margin: 0;
+    padding: 0;
+}
+label {
+    margin-bottom: .5rem;
+    display: inline-block !important;
+}
+.page-content-account .left-col fieldset label {
+    font-weight: bold;
+}
+.page-content-account .left-col fieldset label span {
+    color: red;
+}
+.form-group .form-control {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: var(--font-base);
+    color: var(--text-color);
+    background-color: #fff;
+    background-image: none;
+    margin-bottom: 15px;
+    border: 1px solid #EAEBF3;
+    box-shadow: none;
+    border-radius: 3px;
+}
+.page-content-account .left-col fieldset input {
+    height: 40px;
+    line-height: 40px;
+}
+.page-content-account .left-col .btn-login {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f72c0f;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.page-content-account .left-col p a {
+    text-decoration: underline;
+    color: #007bff;
+}
+.page-content-account .left-col p {
+    display: block;
+    text-align: center;
+}
+
+.page-content-account .right-col div {
+    margin: 40px 0 20px 0;
+}
+.page-content-account .right-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.page-content-account .right-col .btn-register-default {
+    height: 40px;
+    padding: 0 40px;
+    background: #f72c0f;
+    border: solid 1px #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    line-height: 38px;
+    border-radius: 4px;
+}

@@ -1,0 +1,181 @@
+
+
+.section-slide-banner .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 0 7.5px;
+    max-width: 1190px;
+    position: relative;
+}
+.section-slide-banner .container .row {
+    display: flex ;
+    margin: 0 -7.5px;}
+.section-slide-banner .container .row .col-lg-9{
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { 
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    }
+
+[class*='col-'] {
+        padding: 0 7.5px; }
+ .section-slide-banner .container .row .col-lg-9 .swiper-button {
+            position: relative;
+        }
+        .section-slide-banner .container .row .col-lg-9.swiper-container {
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .section-slide-banner .container .row .col-lg-9 .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+             height: auto; 
+        }
+        .section-slide-banner .slide-container {
+            padding: 0 0 0 0;
+        }
+
+.section-slide-banner .swiper-slide img {
+    display: inline-block;
+    margin: 0 auto;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.section-slide-banner .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    display: inline-block;
+    width: auto;
+}
+.d-lg-block {
+    display: block !important;
+}
+.white {
+    background: #fff;
+}
+.component-account.white {
+    padding: 0;
+}
+.component-account .block-account {
+    background: linear-gradient(180deg, rgba(255, 209, 189, 0.44) 0%, rgba(255, 189, 189, 0.87) 100%);
+    width: 100%;
+    flex-shrink: 0;
+}
+.d-flex {
+    display: flex !important;
+}
+.component-account .block-account .image-acc {
+    align-items: center;
+    padding: 15px;
+}
+img.lazyload {
+    display: block;
+}
+img.lazyload.loaded {
+    background: transparent;
+    width: unset !important;
+    height: unset !important;
+}
+.component-account .block-account .image-acc img {
+    max-width: 64px;
+    max-height: 64px;
+}
+.component-account .block-account .image-acc .child-acc {
+    width: calc(100% - 50px);
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+a {
+    color: var(--text-color);
+}
+.component-account .block-account .image-acc .child-acc a {
+    display: block;
+    font-weight: bold;
+}
+.component-account .block-account .image-acc .child-acc span {
+    color: #6C6C6C;
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.d-flex {
+    display: flex !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.component-account .block-account .group-btn {
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.component-account .block-account .group-btn .btn-acc {
+    border-radius: 5px;
+    background: #FF6363;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+    width: calc(100% / 2 - 20px);
+}
+.component-account .block-account .group-btn .btn-acc:last-child {
+    background: #FF8863;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.component-account .acction-link {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: solid 1px #ebebeb;
+    font-size: 14px;
+    font-family: var(--font-base);
+}
+.component-account .acction-link a {
+    display: block;
+}
+.component-account .list-social {
+    padding: 0 10px 15px;
+    text-align: center;
+    justify-content: center;
+}
+.component-account .list-social a {
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.section-slide-banner .banner_item {
+    margin-top: 9px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+img {
+    max-width: 100%;
+}
+.section-slide-banner .banner_item {
+    margin-top: 9px;
+}
